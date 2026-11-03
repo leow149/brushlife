@@ -19,4 +19,9 @@ To sign a release build, create `keystore/keystore.properties` (`storeFile`, `st
 
 `tools/make_brush_art.py` regenerates the vector brush-head artwork (`BrushArt.kt`).
 
-See `THIRD_PARTY_NOTICES.md` for attributions. Not affiliated with Philips.
+## License
+
+Apache License 2.0, see `LICENSE` and `NOTICE`. Redistributions must keep the copyright and `NOTICE`
+attribution and state any changes made. Third-party attributions: `THIRD_PARTY_NOTICES.md`.
+
+Not affiliated with Philips.
