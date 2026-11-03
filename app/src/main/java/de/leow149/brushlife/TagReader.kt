@@ -1,4 +1,4 @@
-package com.example.sonicarenfc
+package de.leow149.brushlife
 
 import android.nfc.Tag
 import android.nfc.tech.MifareUltralight

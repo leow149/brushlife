@@ -7,10 +7,10 @@ plugins {
 }
 
 android {
-    namespace = "com.example.sonicarenfc"
+    namespace = "de.leow149.brushlife"
     compileSdk = 36
     defaultConfig {
-        applicationId = "com.example.sonicarenfc"
+        applicationId = "de.leow149.brushlife"
         minSdk = 26
         targetSdk = 36
         versionCode = 1

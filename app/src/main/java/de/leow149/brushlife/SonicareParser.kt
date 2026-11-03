@@ -1,4 +1,4 @@
-package com.example.sonicarenfc
+package de.leow149.brushlife
 
 /** Result of one tag scan. [pages] is indexed by NTAG page number (4 bytes each). */
 data class ScanResult(

@@ -1,4 +1,4 @@
-package com.example.sonicarenfc
+package de.leow149.brushlife
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
