@@ -13,8 +13,8 @@ android {
         applicationId = "de.leow149.brushlife"
         minSdk = 26
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.0.1"
     }
     val ksProps = Properties().apply {
         file("../keystore/keystore.properties").takeIf { it.exists() }?.inputStream()?.use { load(it) }
