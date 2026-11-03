@@ -1,0 +1,44 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- drop shadow: the same shapes, dark and offset downwards -->
+    <group android:translateY="1.8">
+        <path android:pathData="M37,71 A24,24 0 1 1 71,71"
+            android:strokeColor="#59001F20" android:strokeWidth="5" android:strokeLineCap="round" />
+        <group android:translateX="39" android:translateY="38" android:scaleX="1.25" android:scaleY="1.25">
+            <!-- one path for both parts: translucent strokes of separate paths would overlap and double up -->
+            <path android:pathData="M15,11c-2,2 -4,2 -6,4l-7,7 M22,4l-7.414,7.414l-2,-2A2,2 0 0 1 14,6c0,-0.512 0.196,-1.024 0.586,-1.414A2,2 0 0 1 16,4a2,2 0 0 1 3.262,-1.552l2.152,2.138"
+                android:strokeColor="#59001F20" android:strokeWidth="2"
+                android:strokeLineCap="round" android:strokeLineJoin="round" />
+        </group>
+    </group>
+    <!-- life gauge: 270 degree ring, shaded top (light) to bottom (slightly darker) -->
+    <path android:pathData="M37,71 A24,24 0 1 1 71,71"
+        android:strokeWidth="5" android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient android:type="linear"
+                android:startX="54" android:startY="28" android:endX="54" android:endY="76"
+                android:startColor="#FFFFFFFF" android:endColor="#FFC2E3E0" />
+        </aapt:attr>
+    </path>
+    <!-- toothbrush pictogram from Lucide (ISC licence, see THIRD_PARTY_NOTICES.md); 24x24 scaled to 30 -->
+    <group android:translateX="39" android:translateY="38" android:scaleX="1.25" android:scaleY="1.25">
+        <path android:pathData="M15,11c-2,2 -4,2 -6,4l-7,7"
+            android:strokeWidth="2" android:strokeLineCap="round" android:strokeLineJoin="round">
+            <aapt:attr name="android:strokeColor">
+                <gradient android:type="linear"
+                    android:startX="12" android:startY="2" android:endX="12" android:endY="22"
+                    android:startColor="#FFFFFFFF" android:endColor="#FFC2E3E0" />
+            </aapt:attr>
+        </path>
+        <path android:pathData="m22,4l-7.414,7.414l-2,-2A2,2 0 0 1 14,6c0,-0.512 0.196,-1.024 0.586,-1.414A2,2 0 0 1 16,4a2,2 0 0 1 3.262,-1.552l2.152,2.138"
+            android:strokeWidth="2" android:strokeLineCap="round" android:strokeLineJoin="round">
+            <aapt:attr name="android:strokeColor">
+                <gradient android:type="linear"
+                    android:startX="12" android:startY="2" android:endX="12" android:endY="22"
+                    android:startColor="#FFFFFFFF" android:endColor="#FFC2E3E0" />
+            </aapt:attr>
+        </path>
+    </group>
+</vector>
